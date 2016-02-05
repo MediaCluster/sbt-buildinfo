@@ -1,6 +1,6 @@
 lazy val commonSettings: Seq[Setting[_]] = Seq(
   git.baseVersion in ThisBuild := "0.5.0",
-  organization in ThisBuild := "com.eed3si9n"
+  organization in ThisBuild := "de.mediacluster.sbt"
 )
 
 lazy val root = (project in file(".")).
